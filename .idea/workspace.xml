@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Création et test des fonctions 2 et 3 qui permettent de créer une liste de lettres contenues dans le mot et de modifier cette liste si elle contient des caractères spéciaux, afin de faciliter le jeu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jeu_du_pendu_Clélia_Durandet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jeu_du_pendu_Clélia_Durandet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +66,20 @@
       <option name="presentableId" value="Default" />
       <updated>1716386622086</updated>
     </task>
+    <task id="LOCAL-00001" summary="Création et test des fonctions 2 et 3 qui permettent de créer une liste de lettres contenues dans le mot et de modifier cette liste si elle contient des caractères spéciaux, afin de faciliter le jeu">
+      <option name="closed" value="true" />
+      <created>1716388211109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716388211109</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Création et test des fonctions 2 et 3 qui permettent de créer une liste de lettres contenues dans le mot et de modifier cette liste si elle contient des caractères spéciaux, afin de faciliter le jeu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création et test des fonctions 2 et 3 qui permettent de créer une liste de lettres contenues dans le mot et de modifier cette liste si elle contient des caractères spéciaux, afin de faciliter le jeu" />
   </component>
 </project>
