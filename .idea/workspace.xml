@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jeu_du_pendu_Clélia_Durandet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jeu_du_pendu_Clélia_Durandet.py" afterDir="false" />
-    </list>
+    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Création de la fonction principale jouer() qui utilise les autres fonctions annexe" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,13 +112,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716389105236</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ajout de la fonction qui permet de donner un indice à l'utilisateur qaund il lui reste 1 seule chance">
+      <option name="closed" value="true" />
+      <created>1716399624003</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716399624003</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Création de la fonction principale jouer() qui utilise les autres fonctions annexe">
+      <option name="closed" value="true" />
+      <created>1716399900640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716399900640</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Création et test des fonctions 2 et 3 qui permettent de créer une liste de lettres contenues dans le mot et de modifier cette liste si elle contient des caractères spéciaux, afin de faciliter le jeu" />
     <MESSAGE value="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False" />
+    <MESSAGE value="Ajout de la fonction qui permet de donner un indice à l'utilisateur qaund il lui reste 1 seule chance" />
+    <MESSAGE value="Création de la fonction principale jouer() qui utilise les autres fonctions annexe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création de la fonction principale jouer() qui utilise les autres fonctions annexe" />
   </component>
 </project>
