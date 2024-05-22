@@ -1,4 +1,4 @@
-Ce programme vous permet de jouer au "jeu du pendu".
+Ce programme vous permet de jouer au "jeu du pendu" avec des mots en français. 
 
 But: trouver le mot en testant des lettres à chaque manche. 
 Quand vous lancez le script, un mot sera choisi au hasard parmi la liste des mots donnés.
