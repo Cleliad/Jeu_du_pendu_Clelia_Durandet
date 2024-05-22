@@ -49,3 +49,24 @@ def ecrire_equivalence (lettres_du_mot):
     return lettres_du_mot_equivalence
 
 print(ecrire_equivalence(lettres_du_mot))
+
+lettres_du_mot_equivalence= ecrire_equivalence (lettres_du_mot)
+longueur=len(lettres_du_mot)
+lettre= 'a'
+underscores = '_'
+mot_instant = [underscores for j in range(longueur)]  # initialisation du mot avec les tirets
+
+
+# FONCTION 4: Teste si la lettre est présente dans le mot à trouver et l'écrit à la place du '_'
+def tester_lettres(lettre, mot_instant, lettres_du_mot_equivalence):
+    trouve = 0 # permet de boucler pour trouver les occurences (s'il y en a dans le mot)
+    for i in range(len(mot_instant)):
+        if lettres_du_mot_equivalence[i]==lettre:
+            mot_instant[i] = lettre
+            trouve +=1
+    if trouve >0:
+        return True
+    else:
+        return False
+
+print(tester_lettres(lettre, mot_instant, lettres_du_mot_equivalence))
