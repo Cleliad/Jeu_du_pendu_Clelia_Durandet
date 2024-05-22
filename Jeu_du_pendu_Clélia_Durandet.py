@@ -4,6 +4,7 @@
 # PROGRAMME: JEU DU PENDU
 #====================================================================================
 import random
+import string
 
 # FONCTION 1 : Choix du mot au hasard dans la liste fournie
 def choisir_mot():
@@ -71,4 +72,18 @@ def tester_lettres(lettre, mot_instant, lettres_du_mot_equivalence):
 
 print(tester_lettres(lettre, mot_instant, lettres_du_mot_equivalence))
 
-print('hello')
+liste_lettres_test=[]
+
+liste_alphabet = list(string.ascii_lowercase)  # Liste des lettres de l'alphabet en minuscules
+
+
+# FONCTION 6: Permet de donner un indice si c'est la dernière chance du joueur: renvoit une lettre qui n'est pas présente dans le mot
+def donner_indice(liste_alphabet,lettres_du_mot_equivalence,liste_lettres_test):
+    lettres_du_mot_equivalence.extend(liste_lettres_test) # on concatène les deux listes pour avoir toutes les lettres utilisées
+    for i in range(len(lettres_du_mot_equivalence)):
+        if lettres_du_mot_equivalence[i] in liste_alphabet:
+            liste_alphabet.remove(lettres_du_mot_equivalence[i]) # on retranche les lettres utilisées à la liste alphabétique
+            indice = random.choice(liste_alphabet)
+            liste_lettres_test.append(indice) # on renvoit une lettre au hasard parmi celles qui ne sont pas dans le mot et qui n'ont pas été testées
+            return (indice)
+print(donner_indice(liste_alphabet,lettres_du_mot_equivalence,liste_lettres_test))

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False" />
+    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeu_du_pendu_Clélia_Durandet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jeu_du_pendu_Clélia_Durandet.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +91,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716389010657</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False">
+      <option name="closed" value="true" />
+      <created>1716389053147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716389053147</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False">
+      <option name="closed" value="true" />
+      <created>1716389078574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716389078574</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False">
+      <option name="closed" value="true" />
+      <created>1716389105236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716389105236</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
