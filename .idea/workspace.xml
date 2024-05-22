@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Création et test des fonctions 2 et 3 qui permettent de créer une liste de lettres contenues dans le mot et de modifier cette liste si elle contient des caractères spéciaux, afin de faciliter le jeu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,12 +72,29 @@
       <option name="project" value="LOCAL" />
       <updated>1716388211109</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False">
+      <option name="closed" value="true" />
+      <created>1716388842507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716388842507</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False">
+      <option name="closed" value="true" />
+      <created>1716389010657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716389010657</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Création et test des fonctions 2 et 3 qui permettent de créer une liste de lettres contenues dans le mot et de modifier cette liste si elle contient des caractères spéciaux, afin de faciliter le jeu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Création et test des fonctions 2 et 3 qui permettent de créer une liste de lettres contenues dans le mot et de modifier cette liste si elle contient des caractères spéciaux, afin de faciliter le jeu" />
+    <MESSAGE value="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False" />
   </component>
 </project>
