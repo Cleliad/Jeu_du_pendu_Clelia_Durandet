@@ -70,3 +70,5 @@ def tester_lettres(lettre, mot_instant, lettres_du_mot_equivalence):
         return False
 
 print(tester_lettres(lettre, mot_instant, lettres_du_mot_equivalence))
+
+print('hello')
