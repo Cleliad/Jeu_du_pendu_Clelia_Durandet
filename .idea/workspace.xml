@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Création dernière fonction pour rejouer">
+    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Ajout affichage en couleur et derniers détails et commentaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jeu_du_pendu_Clélia_Durandet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jeu_du_pendu_Clélia_Durandet.py" afterDir="false" />
     </list>
@@ -49,7 +49,7 @@
     "Python.Jeu_du_pendu_Clélia_Durandet.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Clélia/Desktop/COURS ETS/Session E24/MGA802/Pycharm/Jeu_pendu_module_3",
+    "last_opened_file_path": "C:/Users/Clélia/Desktop/COURS ETS/Session E24/MGA802/Pycharm/Jeu_du_pendu_Clélia_Durandet",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -141,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716400216775</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ajout affichage en couleur et derniers détails et commentaires">
+      <option name="closed" value="true" />
+      <created>1716468707906</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716468707906</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +159,7 @@
     <MESSAGE value="Ajout de la fonction qui permet de donner un indice à l'utilisateur qaund il lui reste 1 seule chance" />
     <MESSAGE value="Création de la fonction principale jouer() qui utilise les autres fonctions annexe" />
     <MESSAGE value="Création dernière fonction pour rejouer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Création dernière fonction pour rejouer" />
+    <MESSAGE value="Ajout affichage en couleur et derniers détails et commentaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout affichage en couleur et derniers détails et commentaires" />
   </component>
 </project>

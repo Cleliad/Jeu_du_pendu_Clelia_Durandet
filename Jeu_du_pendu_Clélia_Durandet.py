@@ -14,9 +14,14 @@ from colorama import Style
 def choisir_mot():
     choix_fichier= input('Voulez-vous fournir votre propre fichier de mots: répondez oui ou non: ')
     if choix_fichier=='oui':
-        chemin_choisi= input('Entrez le lien d accès complet de votre fichier, attention il est possible que vous deviez mettre 2 anti slash a lieu d un seul slash pour que ça fonctionne : ')
-        fichier_utilisateur= open(chemin_choisi, 'r', encoding='utf-8')
-        texte = fichier_utilisateur.readlines()
+        while True:
+            try:
+                chemin_choisi= input('Entrez le lien d accès complet de votre fichier, attention il est possible que vous deviez mettre 2 anti slash a lieu d un seul slash pour que ça fonctionne : ')
+                fichier_utilisateur= open(chemin_choisi, 'r', encoding='utf-8')
+                texte = fichier_utilisateur.readlines()
+                break
+            except FileNotFoundError:
+                print('Fichier non trouvé, essais à nouveau !!')
     else:
         fichier_texte = open('mots_pendu.txt', 'r', encoding='utf-8')
         texte = fichier_texte.readlines()
