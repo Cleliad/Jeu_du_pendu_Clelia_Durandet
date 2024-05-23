@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Création de la fonction principale jouer() qui utilise les autres fonctions annexe" />
+    <list default="true" id="150cbdd1-969b-4ac1-aa71-5537f5fc7889" name="Changes" comment="Création dernière fonction pour rejouer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeu_du_pendu_Clélia_Durandet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jeu_du_pendu_Clélia_Durandet.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Cleliad"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cleliad&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Cleliad/Jeu_du_pendu_Clelia_Durandet.git",
-    "accountId": "5b24cb1a-e22c-4343-9410-7a870d6421d8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Cleliad/Jeu_du_pendu_Clelia_Durandet.git&quot;,
+    &quot;accountId&quot;: &quot;5b24cb1a-e22c-4343-9410-7a870d6421d8&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2gpFTdqn5VGKpdCM6cvlkuanVrZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,7 +48,9 @@
   "keyToString": {
     "Python.Jeu_du_pendu_Clélia_Durandet.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Clélia/Desktop/COURS ETS/Session E24/MGA802/Pycharm/Jeu_pendu_module_3",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -128,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716399900640</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Création dernière fonction pour rejouer">
+      <option name="closed" value="true" />
+      <created>1716400216775</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716400216775</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +150,7 @@
     <MESSAGE value="Ajout fonction 4: qui teste si une lettre est dans le mot et renvoit True si c'est le cas, sinon False" />
     <MESSAGE value="Ajout de la fonction qui permet de donner un indice à l'utilisateur qaund il lui reste 1 seule chance" />
     <MESSAGE value="Création de la fonction principale jouer() qui utilise les autres fonctions annexe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Création de la fonction principale jouer() qui utilise les autres fonctions annexe" />
+    <MESSAGE value="Création dernière fonction pour rejouer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création dernière fonction pour rejouer" />
   </component>
 </project>

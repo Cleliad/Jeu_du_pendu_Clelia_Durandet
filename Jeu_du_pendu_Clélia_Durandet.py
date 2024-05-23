@@ -6,12 +6,15 @@
 import random
 import string
 
+# Utilisation du package colorama (doit être installé au préalable, cf README.md)
+from colorama import Fore
+from colorama import Style
 
 # FONCTION 1 : Choix du mot au hasard dans la liste fournie
 def choisir_mot():
     choix_fichier= input('Voulez-vous fournir votre propre fichier de mots: répondez oui ou non: ')
     if choix_fichier=='oui':
-        chemin_choisi= input('Entrez le lien d''accès de votre fichier, attention il est possible que vous deviez mettre 2 anti slash à chaque slash du chemin pour que ça fonctionne : ')
+        chemin_choisi= input('Entrez le lien d accès complet de votre fichier, attention il est possible que vous deviez mettre 2 anti slash a lieu d un seul slash pour que ça fonctionne : ')
         fichier_utilisateur= open(chemin_choisi, 'r', encoding='utf-8')
         texte = fichier_utilisateur.readlines()
     else:
@@ -27,7 +30,6 @@ def liste_lettres_mot(mot_choisi):
     lettres_du_mot=[]
     for l in mot_choisi:
         lettres_du_mot.append(l) # ajoute chaque lettre du mot dans l'ordre dans une liste
-    #print(lettres_du_mot)
     return(lettres_du_mot)
 
 
@@ -60,10 +62,10 @@ def jouer_a_nouveau():
     print('Veux-tu jouer à nouveau?')
     choix = input('Répondre: oui ou non ')
     if choix == 'oui':
-        jouer()
+        jouer() # appel récurrent de la fonction
         return True
     else:
-        print('LE JEU EST FINI, A BIENTOT')
+        print(f'{Fore.YELLOW}LE JEU EST FINI, A BIENTOT{Style.RESET_ALL}')
         return False
 
 # FONCTION 6: Permet de donner un indice si c'est la dernière chance du joueur: renvoit une lettre qui n'est pas présente dans le mot
@@ -73,7 +75,7 @@ def donner_indice(liste_alphabet,lettres_du_mot_equivalence,liste_lettres_test):
         if lettres_du_mot_equivalence[i] in liste_alphabet:
             liste_alphabet.remove(lettres_du_mot_equivalence[i]) # on retranche les lettres utilisées à la liste alphabétique
             indice = random.choice(liste_alphabet)
-            liste_lettres_test.append(indice) # on renvoit une lettre au hasard parmi celles qui ne sont pas dans le mot et qui n'ont pas été testées
+            liste_lettres_test.append(indice) # on renvoie une lettre au hasard parmi celles qui ne sont pas dans le mot et qui n'ont pas été testées
             return (indice)
 
 
@@ -83,7 +85,7 @@ def jouer():
     # Initialisation des variables
     liste_alphabet = list(string.ascii_lowercase)  # Liste des lettres de l'alphabet en minuscules
     print('''Vous vous appretez à commencer une partie de pendu, vous avez 6 chances !''')
-    print('Consignes: Vous n''avez pas besoin de préciser les accents et caractères spéciaux quand vous entrez les lettres (minuscules)')
+    print('Consignes: Vous n avez pas besoin de préciser les accents et caractères spéciaux quand vous entrez les lettres (en minuscules)')
     num_indice=0 # nombre d'indice donné (le jeu ne donne qu'un seul indice par partie quand il reste 1 chance)
     mot_choisi = choisir_mot() # mot à trouver
     lettres_du_mot = liste_lettres_mot(mot_choisi) # liste des lettres du mot à trouver
@@ -98,20 +100,20 @@ def jouer():
     while compteur!=0:
 
         # Initialisation du jeu
-        print('Le mot à deviner est:', mot_instant) # affiche le mot à deviner avec les '_'
+        print(f'{Fore.GREEN}Le mot à deviner est:{Style.RESET_ALL}', mot_instant) # affiche le mot à deviner avec les '_'
         print('Les lettres testées sont:', liste_lettres_test) # affiche la liste des lettres testées par le joueur
         lettre = str(input('Entrez une lettre: ')) # demande à l'utilisateur de renseigner une lettre
         print(lettre)
 
         # Teste si la lettre est dans le mot et actualise le compteur
         if tester_lettres(lettre, mot_instant, lettres_du_mot_equivalence):
-            print('BIEN JOUÉ, LA LETTRE EST DANS LE MOT !')
+            print(f'{Fore.BLUE}BIEN JOUÉ, LA LETTRE EST DANS LE MOT !{Style.RESET_ALL}')
             compteur=mot_instant.count('_')
 
         # Si la lettre n'est pas dans le mot, le nombre de chance diminue et la lettre est ajoutée à la liste des lettres testées
         else:
             chance -= 1
-            print('Mince, essais à nouveau \nIL TE RESTE', chance, 'CHANCES')
+            print(f'{Fore.RED}Mince, essais à nouveau \nIL TE RESTE {Style.RESET_ALL}', chance, 'CHANCES')
             liste_lettres_test.append(lettre)
 
         # S'il ne reste qu'une chance au joueur et qu'il n'a pas encore trouvé le mot, il peut avoir l'indice (un seul par partie)
@@ -128,12 +130,12 @@ def jouer():
         # Le joueur n'a pas trouvé le mot, il perd la partie !
         elif chance == 0:
             compteur=0
-            print('DOMMAGE TU AS PERDU, LE MOT ÉTAIT:', mot_choisi )
+            print(f'{Fore.RED}DOMMAGE TU AS PERDU, le mot était: {Style.RESET_ALL}', mot_choisi )
             jouer_a_nouveau()
 
     # Le joueur trouve le mot avec les 6 chances données, il gagne !
     if chance>0:
-        print('BIEN JOUÉ TU AS GAGNÉ, LE MOT ÉTAIT:', mot_choisi)
+        print(f'{Fore.MAGENTA}BIEN JOUÉ TU AS GAGNÉ, le mot était: {Style.RESET_ALL}', mot_choisi)
         jouer_a_nouveau()
 
 # APPEL DE LA FONCTION
